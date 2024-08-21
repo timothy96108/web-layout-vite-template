@@ -1,19 +1,17 @@
+// font
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 // base
-@import './base/reset';
 @import './base/base';
 
-// utilities
-@import './utilities/typography';
-@import './utilities/colors';
-@import './utilities/display';
-@import './utilities/layout';
-@import './utilities/spacing';
+// bootstrap
+@import "bootstrap/scss/functions";
+@import './helpers/variables';
+@import "bootstrap/scss/bootstrap";
 
 // layout
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import './layout/header';
+@import './layout/footer';
 
 // pages
-@import './pages/index.scss';
+@import './pages/index';
